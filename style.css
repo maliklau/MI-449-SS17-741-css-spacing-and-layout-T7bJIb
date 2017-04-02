@@ -1,0 +1,64 @@
+img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  height: 25%;
+  width: 25%;
+  border: 7px solid;
+  border-color: #000;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  font-family: cursive;
+  font-size: 60px;
+  padding-bottom: 6px;
+}
+
+h3 {
+  text-decoration: underline;
+  display: block;
+  margin-left: 50px;
+}
+
+body {
+  margin: 0;
+  background: #78c5b6;
+}
+
+p {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+
+a {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  padding-bottom: 2px;
+}
+
+.parent {
+  display: flex;
+}
+
+.myinfo {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 6px;
+}
+
+#bio {
+  flex-grow: 3;
+}
+
+#jobs {
+  flex-grow: 2;
+}
