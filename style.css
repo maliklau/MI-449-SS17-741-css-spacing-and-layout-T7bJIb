@@ -1,7 +1,7 @@
 img {
   border-radius: 50%;
   display: block;
-  margin: auto;
+  margin-left: 150px;
   height: 25%;
   width: 25%;
   border: 7px solid;
@@ -9,17 +9,21 @@ img {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   display: block;
-  font-family: cursive;
+  font-family: serif;
+  margin-left: 150px;
   font-size: 60px;
-  padding-bottom: 6px;
+}
+
+h2 {
+  display: block;
+  font-family: arial;
 }
 
 h3 {
-  text-decoration: underline;
   display: block;
-  margin-left: 50px;
+  font-family: arial;
 }
 
 body {
@@ -49,8 +53,18 @@ li {
   display: flex;
 }
 
-.myinfo {
+.header {
+  display: flex;
+}
+
+header {
+  background-color: #98c5b9;
   flex-grow: 1;
+  margin-bottom: 50px;
+}
+
+.myinfo {
+  flex-grow: 1 1 2;
   flex-basis: 0;
   margin: 6px;
 }
