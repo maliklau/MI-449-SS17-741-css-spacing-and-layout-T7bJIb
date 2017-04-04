@@ -6,6 +6,7 @@ img {
   width: 25%;
   border: 7px solid;
   border-color: #000;
+  margin-right: 50px;
 }
 
 h1 {
@@ -33,7 +34,6 @@ body {
 
 p {
   display: inline-block;
-  margin-left: 50px;
   margin-right: 150px;
 }
 
